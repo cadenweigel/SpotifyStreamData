@@ -1,1 +1,5 @@
-src/data/*
+src/database/data/*
+.vscode
+
+src/credentials.ini
+src/database/dbinfo.ini
