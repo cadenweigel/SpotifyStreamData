@@ -3,3 +3,4 @@ src/database/data/*
 
 src/credentials.ini
 src/database/dbinfo.ini
+src/database/__pycache__

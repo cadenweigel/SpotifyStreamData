@@ -20,3 +20,20 @@ class Stream:
         self.shuffle = shuffle
         self.skipped = skipped
         self.offline = offline
+
+    def to_dict(self) -> dict:
+        return {
+            "timestamp": self.timestamp,
+            "platform": self.platform,
+            "ms_played": self.ms_played,
+            "country": self.country,
+            "track_name": self.track_name,
+            "artist_name": self.artist_name,
+            "album_name": self.album_name,
+            "spotify_track_uri": self.spotify_track_uri,
+            "reason_start": self.reason_start,
+            "reason_end": self.reason_end,
+            "shuffle": self.shuffle,
+            "skipped": self.skipped,
+            "offline": self.offline
+        }
